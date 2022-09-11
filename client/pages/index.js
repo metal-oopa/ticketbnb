@@ -15,7 +15,7 @@ const LandingPage = ({ currentUser, tickets }) => {
     );
   });
 
-  return (
+  return tickets.length > 0 ? (
     <div
       style={{
         margin: "8vh 15vh",
@@ -45,6 +45,18 @@ const LandingPage = ({ currentUser, tickets }) => {
           {ticketList}
         </tbody>
       </table>
+    </div>
+  ) : (
+    <div
+      style={{
+        margin: "8vh 15vh",
+        backgroundColor: "purple",
+        color: "white",
+        padding: "2rem",
+        borderRadius: "0.5%",
+      }}
+    >
+      <h1>No tickets available</h1>
     </div>
   );
 };

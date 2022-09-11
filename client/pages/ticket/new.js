@@ -13,6 +13,7 @@ const NewTicket = () => {
     onSuccess: (ticket) => {
       setPrice(0);
       setTitle("");
+      Router.push("/");
     },
   });
   const onSubmit = (e) => {

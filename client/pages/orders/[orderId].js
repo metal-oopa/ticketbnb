@@ -1,8 +1,8 @@
-import { createRouter } from "next/router";
 import { useEffect, useState } from "react";
 import StripeCheckout from "react-stripe-checkout";
 import useRequest from "../../hooks/use-request";
-import axios from "axios";
+import Router from "next/router";
+
 const OrderShow = ({ order, orderId, currentUser }) => {
   const [tokenKey, setTokenKey] = useState(null);
   const { doRequest, errors } = useRequest({
@@ -13,6 +13,7 @@ const OrderShow = ({ order, orderId, currentUser }) => {
     },
     onSuccess: (payment) => {
       console.log(payment);
+      Router.push("/orders");
     },
   });
   const [timeLeft, setTimeLeft] = useState(0);
