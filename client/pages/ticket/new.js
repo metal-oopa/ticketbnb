@@ -27,7 +27,7 @@ const NewTicket = () => {
           width: "50%",
           marginLeft: "45vh",
           marginTop: "20vh",
-          backgroundColor: "purple",
+          backgroundColor: "orange",
           padding: "5%",
           borderRadius: "3%",
           color: "white",

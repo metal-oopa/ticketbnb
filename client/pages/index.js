@@ -19,7 +19,7 @@ const LandingPage = ({ currentUser, tickets }) => {
     <div
       style={{
         margin: "8vh 15vh",
-        backgroundColor: "purple",
+        backgroundColor: "orange",
         color: "white",
         padding: "2rem",
         borderRadius: "0.5%",
@@ -50,7 +50,7 @@ const LandingPage = ({ currentUser, tickets }) => {
     <div
       style={{
         margin: "8vh 15vh",
-        backgroundColor: "purple",
+        backgroundColor: "orange",
         color: "white",
         padding: "2rem",
         borderRadius: "0.5%",

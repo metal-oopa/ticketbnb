@@ -19,7 +19,7 @@ const TicketShow = ({ ticket }) => {
           width: "50%",
           marginLeft: "45vh",
           marginTop: "25vh",
-          backgroundColor: "purple",
+          backgroundColor: "orange",
           padding: "5%",
           color: "white",
         }}
