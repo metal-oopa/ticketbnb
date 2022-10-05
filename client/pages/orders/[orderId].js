@@ -16,6 +16,7 @@ const OrderShow = ({ order, orderId, currentUser }) => {
       Router.push("/orders");
     },
   });
+
   const [timeLeft, setTimeLeft] = useState(0);
   useEffect(() => {
     const findTimeLeft = () => {
@@ -40,7 +41,7 @@ const OrderShow = ({ order, orderId, currentUser }) => {
       style={{
         width: "50%",
         height: "50%",
-        backgroundColor: "purple",
+        backgroundColor: "orange",
         marginTop: "30vh",
         padding: "4rem",
         color: "white",

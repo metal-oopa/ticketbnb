@@ -12,7 +12,7 @@ const OrderIndex = ({ orders, currentUser }) => {
       <div
         style={{
           margin: "8vh 15vh",
-          backgroundColor: "purple",
+          backgroundColor: "orange",
           color: "white",
           padding: "2rem",
           borderRadius: "3%",
