@@ -6,3 +6,8 @@
 /payments/node_modules
 /tickets/node_modules
 /client/node_modules
+
+.next
+
+.env
+.env.*
